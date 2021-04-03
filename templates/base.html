@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>63-IDUMI Quva Tumani</title>
+
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon-16x16.png' %}">
+
+    <!-- Css links -->
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/index-res.css' %}">
+    <link rel="stylesheet" href="{% static 'css/news-res.css' %}">
+</head>
+
+<body>
+    <!-- Creator -->
+    <div class="img-wrapper">
+        <img src="{% static 'images/hojiakbar-creator.jpg' %}" alt="Hojiakbar. Website Creator" width="65"
+            height="80" />
+    </div>
+    <!-- Creator  -->
+    {% block content %}
+
+    {% endblock %}
+    <!-- FOOTER  -->
+    <footer class="site-footer">
+        <div class="footer-copy">
+            <p>&copy Hojiakbar Nurmuhammadov</p>
+        </div>
+    </footer>
+
+    <script src="{% static 'js/script.js' %}"></script>
+    <script src="{% static 'js/hamburger.js' %}"></script>
+</body>
+
+</html>

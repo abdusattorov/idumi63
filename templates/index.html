@@ -1,0 +1,206 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- SITE HEADER  -->
+<header class="site-header">
+    {% include 'navbar.html' %}
+    <div class="header-bg-image">
+        <div class="header-container">
+            <div class="header-text">
+                <h1 class="number">01</h1>
+                <h2 class="header-heading caption">Farg'ona Viloyati <span>Quva Tumani</span></h2>
+            </div>
+            <p class="header-p">Farg'ona viloyati, Quva tumanidagi 63-ixtisoslashtirilgan davlat umumta'lim
+                maktab-internati aniq va tabiy fanlarga ixtisoslashtirilgan.</p>
+            <div class="header-button">
+                <a class="link-button active-button" href="#">Boshlash</a>
+                <a class="link-button" href="#">Ko'proq o'rganish</a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- MAIN  -->
+<main class="main-container">
+    <div class="ixtisos-fanlar">
+        <h2 class="fanlar-caption caption"><span>Ixtisoslashtirilgan</span> Fanlar</h2>
+        <div class="fanlar">
+            <figure class="fanlar-fan">
+                <img class="fan-image" src="{% static 'images/matem.png' %}" alt="Matematika" width="180" height="180">
+                <figcaption class="fan-text">Matematika va Fizika</figcaption>
+            </figure>
+            <img class="arrow-image" src="{% static 'images/arrowb.svg' %}" alt="Arrow" width="150" height="25">
+            <figure class="fanlar-fan">
+                <img class="fan-image" src="{% static 'images/kimyo.png' %}" alt="Matematika" width="180" height="180">
+                <figcaption class="fan-text">Kimyo va Biologiya</figcaption>
+            </figure>
+            <img class="arrow-image" src="{% static 'images/arrowt.svg' %}" alt="Arrow" width="150" height="25">
+            <figure class="fanlar-fan">
+                <img class="fan-image" src="{% static 'images/tarixonatili.png' %}" alt="Matematika" width="180"
+                    height="180">
+                <figcaption class="fan-text">Tarix va Til</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="ustozlar" id="ustozlar">
+        <h2 class="ustozlar-caption caption"><span>Bizning</span> malakali ustozlarimiz</h2>
+        <div class="ustozlar-images">
+            <figure class="ustoz-info">
+                <img class="ustoz-rasm" src="{% static 'images/habibulloh.jpg' %}" alt="Muallim" width="200"
+                    height="260">
+                <figcaption class="ustoz-ismi">Ahmadjonov Habibulloh</figcaption>
+                <figcaption class="ustoz-fani">Ingiliz Tili</figcaption>
+            </figure>
+            <figure class="ustoz-info">
+                <img class="ustoz-rasm" src="{% static 'images/habibulloh.jpg' %}" alt="Muallim" width="200"
+                    height="260">
+                <figcaption class="ustoz-ismi">Ahmadjonov Habibulloh</figcaption>
+                <figcaption class="ustoz-fani">Ingiliz Tili</figcaption>
+            </figure>
+            <figure class="ustoz-info">
+                <img class="ustoz-rasm" src="{% static 'images/habibulloh.jpg' %}" alt="Muallim" width="200"
+                    height="260">
+                <figcaption class="ustoz-ismi">Ahmadjonov Habibulloh</figcaption>
+                <figcaption class="ustoz-fani">Ingiliz Tili</figcaption>
+            </figure>
+            <figure class="ustoz-info">
+                <img class="ustoz-rasm" src="{% static 'images/habibulloh.jpg' %}" alt="Muallim" width="200"
+                    height="260">
+                <figcaption class="ustoz-ismi">Ahmadjonov Habibulloh</figcaption>
+                <figcaption class="ustoz-fani">Ingiliz Tili</figcaption>
+            </figure>
+            <figure class="ustoz-info">
+                <img class="ustoz-rasm" src="{% static 'images/habibulloh.jpg' %}" alt="Muallim" width="200"
+                    height="260">
+                <figcaption class="ustoz-ismi">Ahmadjonov Habibulloh</figcaption>
+                <figcaption class="ustoz-fani">Ingiliz Tili</figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <div class="takliflar" id="taklif">
+        <div class="takliflar-container">
+            <h2 class="taklif-caption caption">Nima uchun
+                <span>bizni tanlashingiz kerak!</span></h2>
+            <ul class="taklif-list">
+                <li class="taklif-item">
+                    <p class="taklif-number">.01</p>
+                    <p class="taklif-nom">Sifatli ta'lim</p>
+                    <p class="taklif-matn">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero adipisci
+                        odit unde animi ex quae consequuntur beatae totam nobis, omnis eius reprehenderit labore
+                        alias cupiditate excepturi? Illum veniam fuga est.</p>
+                </li>
+                <li class="taklif-item">
+                    <p class="taklif-number">.02</p>
+                    <p class="taklif-nom">Sifatli ta'lim</p>
+                    <p class="taklif-matn">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero adipisci
+                        odit unde animi ex quae consequuntur beatae totam nobis, omnis eius reprehenderit labore
+                        alias cupiditate excepturi? Illum veniam fuga est.</p>
+                </li>
+                <li class="taklif-item">
+                    <p class="taklif-number">.03</p>
+                    <p class="taklif-nom">Sifatli ta'lim</p>
+                    <p class="taklif-matn">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero adipisci
+                        odit unde animi ex quae consequuntur beatae totam nobis, omnis eius reprehenderit labore
+                        alias cupiditate excepturi? Illum veniam fuga est.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="rasmlar">
+        <img src="{% static 'images/rasm1.jpg' %}" alt="Litsey rasm" width="273.2" height="250RAsm">
+        <img src="{% static 'images/rasm2.jpg' %}" alt="Litsey rasm" width="273.2" height="250RAsm">
+        <img src="{% static 'images/rasm3.jpg' %}" alt="Litsey rasm" width="273.2" height="250RAsm">
+        <img src="{% static 'images/rasm4.jpg' %}" alt="Litsey rasm" width="273.2" height="250RAsm">
+        <img src="{% static 'images/rasm5.jpg' %}" alt="Litsey rasm" width="273.2" height="250RAsm">
+    </div>
+    <div class="slider-container" id="yutuqlar">
+        <h2 class="ustozlar-caption caption"><span>O'quvchilarimizning</span> yutuqlari</h2>
+        <div class="slider">
+            <button class="prev"><i class="fas fa-chevron-left"></button>
+            <button class="next"><i class="fas fa-chevron-right"></button>
+            <div class="slides-container">
+                <div class="slide active">
+                    <div class="col-left">
+                        <h2>Vegeta</h2>
+                        <p>
+                            Vegeta is the prince of an extraterrestrial warrior race known as
+                            the Saiyans. He is extremely arrogant, proud and hardworking;
+                            constantly referring to his heritage and royal status throughout
+                            the series.
+                        </p>
+                    </div>
+                    <div class="col-right">
+                        <img src="{% static 'images/habibulloh.jpg' %}" alt="O'quvchi" width="309" height="550">
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="col-left">
+                        <h2>GOKU</h2>
+                        <p>
+                            Goku is introduced as an eccentric, monkey-tailed boy who
+                            practices martial arts and possesses superhuman strength. He meets
+                            Bulma and joins her on a journey to find the magical seven Dragon
+                            Balls that can grant the user one wish.
+                        </p>
+                    </div>
+                    <div class="col-right">
+                        <img src="{% static 'images/zaynobiddin.jpg' %}" alt="O'quvchi" width="309" height="550">
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="col-left">
+                        <h2>MASTER ROSHI</h2>
+                        <p>
+                            Master Roshi's first appearance is in chapter #3 of the Dragon
+                            Ball manga. Roshi lives with his longtime companion, an
+                            anthropomorphic turtle referred to as Umigame (ウミガメ, "Sea
+                            Turtle"), on an island with a house built on it known as "Kame
+                            House".
+                        </p>
+                    </div>
+                    <div class="col-right">
+                        <img src="{% static 'images/habibulloh.jpg' %}" alt="O'quvchi" width="309" height="550">
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="col-left">
+                        <h2>CELL</h2>
+                        <p>
+                            In filler episodes of the anime, Cell makes numerous cameo
+                            appearances, usually as comic relief. Cell tries absorbing two
+                            siblings, but is prevented from doing so by Krillin, giving chase
+                            to the three and nearly killing Krillin before he notices Piccolo
+                            and Tien Shinhan on the way and escapes.
+                        </p>
+                    </div>
+                    <div class="col-right">
+                        <img src="{% static 'images/habibulloh.jpg' %}" alt="O'quvchi" width="309" height="550">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-container" id="contact">
+        <div class="contact-title">
+            <h2 class="ustozlar-caption caption"><span>Biz bilan</span> bog'laning</h2>
+            <p class="contact-info">Contact info: +99891 663 10 99</p>
+        </div>
+        <form>
+            <input type="text" name="name" placeholder="Ism familyangiz" required>
+            <input type="email" name="email" placeholder="E-mail ingiz" required>
+            <input type="text" name="tel" placeholder="Telefon raqamingiz" required>
+            <div>
+                <input type="text" name="xabar" placeholder="Xabar qoldiring">
+                <div class="form-buttons">
+                    <button type="button">Cancel</button>
+                    <button type="button">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% load static %}
+
+<!-- Social Accounts + Navbar -->
+<div class="social-accounts">
+    <p class="phone-number">+998 91 663 10 99</p>
+    <p class="teacher-name">Soliyev Nodirbek</p>
+</div>
+<nav class="site-navbar">
+    <a class="site-logo" href="#"><img class="logo-image" src="{% static 'images/logo.svg' %}" alt="Logo" width="150"
+            height="30"></a>
+    <div class="hamburger-navigation">
+        <div class="navigation-container" onclick="myFunction(this)">
+            <div class="ham1"></div>
+            <div class="ham2"></div>
+            <div class="ham3"></div>
+        </div>
+        <ul class="navbar-nav nav-off">
+            <li class="navbar-item"><a class="navbar-link" href="{% url 'home' %}">Bosh sahifa</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="{% url 'home' %}#ustozlar">Ustozlarimiz</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="{% url 'home' %}#taklif">Takliflar</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="{% url 'home' %}#yutuqlar">Yutuqlarimiz</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="{% url 'home' %}#contact">Bog'lanish</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="{% url 'news' %}">Yangiliklar</a></li>
+        </ul>
+    </div>
+</nav>

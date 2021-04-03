@@ -1,0 +1,13 @@
+@media (max-width:900px){
+    .main-news-image {
+        float: none;
+    }
+    .yangiliklar{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .yangiliklar-link p{
+        margin-bottom: 10px;
+    }
+    
+}

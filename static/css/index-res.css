@@ -1,0 +1,155 @@
+@media (max-width:900px){
+    body{
+        overflow-x: hidden;
+    }
+    .navigation-container {
+        display: inline-block;
+      }
+    .site-header{
+        margin-bottom: 25px;
+    }
+    .header-bg-image{
+        padding: 25px;
+    }
+    .link-button{
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+    .number{
+        font-size: 100px;
+    }
+    .header-heading{
+        font-size: 30px;
+        width: 50vw;
+    }
+    .site-navbar{
+        padding: 20px 50px;
+    }
+    .navbar-nav{
+        flex-direction: column;
+    }
+    .img-wrapper{
+        display: none;
+    }
+    .ustozlar-caption, .taklif-caption {
+        font-size: 20px;
+    }
+    .contact-title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .contact-title h2{
+        width: auto;
+        font-size: 20px;
+        padding-left: 0;
+    }
+    .ixtisos-fanlar{
+        padding: 0px;
+    }
+    .col-right img{
+       width: 50%;
+       height: 30%;
+       text-align: center;
+    }
+    .fanlar{
+        flex-direction: column;
+    }
+    .arrow-image{
+        display: none;
+    }
+    .fanlar-fan{
+        margin: 15px;
+    }
+    .ustozlar{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .ustozlar-caption{
+        margin-bottom: 25px;
+    }
+    .ustozlar-images{
+        width: 80vw;
+        margin-left: 0;
+    }
+    .rasmlar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .rasmlar img{
+        width: 50vw  !important;
+        height: auto !important;
+    }
+    .takliflar{
+        padding: 40px;
+    }
+    .taklif-matn{
+        width: 80vw;
+    }
+    .slider-container{
+        padding: 50px 0;
+    }
+    .slider{
+        width: 70vw;
+        height: auto;
+        border-radius: 15px;
+    }
+    .col-left h2{
+        font-size: 30px;
+    }
+    .col-left p{
+        font-size: 12px;
+    }
+    .slide{
+        width: 80%;
+        flex-direction: column;
+        padding: 25px;
+    }
+    .social-accounts{
+        padding: 15px;
+    }
+    .caption{
+        border-left: none;
+    }
+    .contact-container{
+        padding: 50px;
+        flex-direction: column;
+    }
+    .form-buttons{
+        justify-content: flex-end;
+    }
+    .form-buttons button{
+        margin-left: 0;
+        margin-left: 20px;
+    }
+    .contact-container input{
+        width: 70vw;
+        font-size: 20px;
+    }
+    .nav-off{
+        display: none;
+    }
+    .nav-on{
+        margin-top: 20px;
+        align-items: flex-start;
+        height: 200px;
+        justify-content: space-between;
+    }
+    .logo-image{
+        margin: 5px auto;
+    }
+    .ham-nav-style{
+        position: fixed;
+        width: 40vw;
+        z-index: 99;
+        height: 100%;
+        background-color: rgba(35, 49, 66, 0.85);
+        right: 0;
+        top: 0;
+        transition: padding-right 1s ease;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 70px;
+        padding-right: 50px;
+    }
+}
